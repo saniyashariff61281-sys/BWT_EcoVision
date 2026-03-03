@@ -24,9 +24,6 @@ Tech Stack
 - Backend: Python (Flask)
 - Database: Optional (CSV or JSON to store user input)
 
-Architecture
-<img width="818" height="835" alt="image" src="https://github.com/user-attachments/assets/798a789a-5315-4823-a49a-6e3a3ae574d7" />
-
 The system works as follows:
 1. **User** inputs devices and usage hours  
 2. **Frontend** sends data to backend  
