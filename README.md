@@ -32,6 +32,7 @@ The system works as follows:
 5. **Frontend** displays results and graph/dashboard  
 
 Architecture Diagram
+
 <img width="818" height="835" alt="image" src="https://github.com/user-attachments/assets/2e4b3451-2a1d-4f1f-90ca-b8c6ae0a1148" />
 
 Team Members
