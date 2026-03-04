@@ -31,16 +31,16 @@ How It Works
    - Calculates approximate CO₂ saved if 100 homes use EcoVision  
 
 
+Architecture Diagram
+
+<img width="818" height="835" alt="image" src="https://github.com/user-attachments/assets/2e4b3451-2a1d-4f1f-90ca-b8c6ae0a1148" />
+
 How to Run
 1. Open terminal in the project folder.  
 2. Run the Python script:
 ```bash
 python main.py
 
-
-Architecture Diagram
-
-<img width="818" height="835" alt="image" src="https://github.com/user-attachments/assets/2e4b3451-2a1d-4f1f-90ca-b8c6ae0a1148" />
 
 Team Members
 - Shrusti M (20241CBD0046)
