@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EcoVision</title>
+</head>
+<body>
+    <h1>EcoVision – Invisible Energy Drain</h1>
+    <form method="post">
+        Device Power (Watts): <input type="number" name="power" step="any" required><br>
+        Hours Used: <input type="number" name="hours" step="any" required><br>
+        <input type="submit" value="Calculate">
+    </form>
+
+    {% if result %}
+    <h2>Results:</h2>
+    <p>Energy Used: {{ result.energy }} Wh</p>
+    <p>CO₂ Emission: {{ result.co2 }} g</p>
+    <p>Cost: ₹{{ result.cost }}</p>
+    <p>Suggestion: {{ result.suggestion }}</p>
+    {% endif %}
+</body>
+</html>
