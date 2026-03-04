@@ -38,9 +38,7 @@ Architecture Diagram
 How to Run
 1. Open terminal in the project folder.  
 2. Run the Python script:
-```bash
-python main.py
-
+      python app.py
 
 Team Members
 - Shrusti M (20241CBD0046)
