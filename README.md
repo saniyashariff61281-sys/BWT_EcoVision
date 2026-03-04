@@ -40,6 +40,10 @@ How to Run
 2. Run the Python script:
       python app.py
 
+      or
+Directly open through this link
+https://bwt-eco-vision--shrustimahesh28.replit.app
+
 Team Members
 - Shrusti M (20241CBD0046)
 - Saniya Shariff (20241CBD0042)
