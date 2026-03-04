@@ -18,18 +18,25 @@ Features
 - Alert if energy is being wasted
 - Show estimated carbon reduction
 - Simple dashboard for suggestions
+How It Works
+1. *User Inputs*: Device power (Watts) and hours used.  
+2. *Calculations*:
+   - Energy used = power × hours (Wh)  
+   - CO₂ emitted = energy × 0.5 g CO₂ per Wh (example factor)  
+   - Cost = energy × ₹0.01 per Wh (example)  
+3. *Suggestions*:
+   - ⚠ High energy usage → Reduce usage  
+   - ✅ Normal usage → Energy efficient  
+4. *Impact*:
+   - Calculates approximate CO₂ saved if 100 homes use EcoVision  
 
-Tech Stack
-- Frontend: HTML, CSS, JavaScript
-- Backend: Python (Flask)
-- Database: Optional (CSV or JSON to store user input)
 
-The system works as follows:
-1. **User** inputs devices and usage hours  
-2. **Frontend** sends data to backend  
-3. **Backend/AI Engine** calculates energy waste and carbon footprint  
-4. **Backend** sends suggestions and stats  
-5. **Frontend** displays results and graph/dashboard  
+How to Run
+1. Open terminal in the project folder.  
+2. Run the Python script:
+```bash
+python main.py
+
 
 Architecture Diagram
 
